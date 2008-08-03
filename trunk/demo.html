@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<link rel="stylesheet" type="text/css" href="jsgallery.css"> <!-- Linking the stylesheet -->
+<script type="text/javascript" src="jsgallery.js"></script> <!-- Linking the JavaScript -->
+<title>jsgallery demo</title>
+</head>
+<body style="background-color:#FFFF80;font-family:sans-serif;">
+<h1>jsgallery demo</h1>
+<p style="font-family:monospace;color:#808080;">jsgallery 2.1 &lt;<a href="http://code.google.com/p/jsgallery/">http://code.google.com/p/jsgallery/</a>&gt;<br>
+Copyright (c) 2008 Malte Schmitz &lt;<a href="http://malte.schmitz-sh.de">http://malte.schmitz-sh.de</a>&gt;<br>
+This software is released under the MIT License &lt;<a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>&gt;</p>
+<hr>
+<h2>simple example</h2>
+<p id="simple">Activate JavaScript to use this photo gallery.</p>
+<script type="text/javascript">
+var gallery = new jsgallery('simple');
+gallery.addImages('images/', 12);
+</script>
+<hr>
+<h2>advanced example</h2>
+<p id="advanced">Activate JavaScript to use this photo gallery.</p>
+<script type="text/javascript">
+var gallery2 = new jsgallery('advanced');
+gallery2.addImage('images/01.jpg', 'sample image one', 'images/01k.jpg');
+gallery2.addImage('images/02.jpg', 'sample image two', 'images/02k.jpg');
+gallery2.addImage('images/03.jpg', 'sample image three', 'images/03k.jpg');
+gallery2.addImage('images/04.jpg', 'sample image four', 'images/04k.jpg');
+gallery2.addImage('images/05.jpg', 'sample image five', 'images/05k.jpg');
+gallery2.addImage('images/06.jpg', 'sample image six', 'images/06k.jpg');
+gallery2.addImage('images/07.jpg', 'sample image seven', 'images/07k.jpg');
+gallery2.addImage('images/08.jpg', 'sample image eight', 'images/08k.jpg');
+gallery2.addImage('images/09.jpg', 'sample image nine', 'images/09k.jpg');
+gallery2.addImage('images/10.jpg', 'sample image ten', 'images/10k.jpg');
+gallery2.addImage('images/11.jpg', 'sample image eleven', 'images/11k.jpg');
+gallery2.addImage('images/12.jpg', 'sample image twelve', 'images/12k.jpg');
+</script>
+</body>
+</html>
