@@ -1,0 +1,39 @@
+div.jsgallery_button_container button {
+  border:outset 2px #FFFF80;
+  background-color:#FFFF80;
+  color:#000000;
+  cursor:pointer;
+  margin:0px 2px 0px 2px;
+  padding:2px 2px 2px 2px;
+}
+div.jsgallery_button_container button img {
+  width:30px;
+  height:15px;
+}
+div.jsgallery {
+  text-align:center;
+}
+div.jsgallery_thumbnail_container {
+  width:80%;
+  margin:auto;
+  height:100px;
+  overflow:scroll;
+  white-space:nowrap;
+  padding:0px;
+}
+div.jsgallery_thumbnail_container img {
+  border: solid 2px #FFFF80;
+  margin: 0 1px;
+  cursor: pointer;
+}
+p.jsgallery_image img {
+  border: solid 1px #000000;
+}
+p.jsgallery_image{
+  margin-bottom:3px;
+}
+p.jsgallery_title{
+  margin-top:3px;
+  font-weight:bold;
+  font-size:10pt;
+}
