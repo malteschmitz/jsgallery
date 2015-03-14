@@ -9,6 +9,5 @@ May follow soon. At the moment download the demo and look at the source of the d
 Download either [jsgallery.zip](http://www.mlte.de/downloads/jsgallery.zip) containing all files needed to get startet or [demo.zip](http://www.mlte.de/downloads/jsgallery-demo.zip) including all files of jsgallery.zip plus a demonstration on how to use jsgallery.
 
 # License #
-------
 
 The source code in this repository including the example images can be used freely under the terms of the [MIT license](http://www.opensource.org/licenses/MIT).
